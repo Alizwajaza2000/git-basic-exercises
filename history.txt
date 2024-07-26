@@ -1,0 +1,25 @@
+cd Documents\git-basic-exercises
+git checkout 2e6b08da2427d94f760f0694a04d28fa32858632
+type README.md
+git checkout master
+type README.md
+git branch
+git checkout -b milkshake-flavours
+git branch
+notepad milkshakes.md
+notepad milkshakes
+notepad milkshakes.md
+git status
+git commit -m "added initial flavours"
+git add milkshakes.md
+git commit -m "added initial flavours"
+git log
+git checkout main
+git checkout master
+git status
+git checkout -b history
+git log
+git branch
+history > history.txt
+cat history.txt
+doskey /history > history.txt
